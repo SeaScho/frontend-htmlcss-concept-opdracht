@@ -1,2 +1,26 @@
 /* CSS - frontend - html - css - concept - opdracht */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts - font-family: 'Merriweather', serif; - font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Kleuren
+
+- Paars `#5722CD`;
+    - Blauw `#4845E4`;
+    - Roze `#ED4385`;
+    - Zwart `#0C0C0C` (voor standaard tekst);
+    - Lichtpaars `#F2F0FF` (voor de grote zwevende woorden, zoals "hello" en "services")
+      *Uitzonderingen:*
+    - Lichtgrijs `#F3F6F9` (voor de achtergrond van de projecten)
+    - Grijs `#7A7A7A` (voor de service-tegel tekst);
+
+ */
