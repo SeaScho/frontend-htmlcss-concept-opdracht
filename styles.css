@@ -24,3 +24,49 @@
     - Grijs `#7A7A7A` (voor de service-tegel tekst);
 
  */
+
+/* HEADER */
+
+.background {
+    background-color: #4845E4;
+}
+
+nav {
+    border: 1px solid black;
+}
+.outer-container-1  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px dotted red;
+}
+
+}
+
+.inner-container-1 {
+    flex-basis: 1000px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 10px 20px;
+    display:flex;
+    flex-direction:column;
+}
+
+
+.outer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px dotted red;
+}
+
+.inner-container {
+    flex-basis: 1000px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 100px 20px;
+    display:flex;
+    flex-direction:column;
+}
