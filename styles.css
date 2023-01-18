@@ -1,2 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* CSS - frontend - html - css - concept - opdracht */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts - font-family: 'Merriweather', serif; - font-family: 'Roboto', sans-serif; */
+
+/* Kleuren
+
+- Paars `#5722CD`;
+    - Blauw `#4845E4`;
+    - Roze `#ED4385`;
+    - Zwart `#0C0C0C` (voor standaard tekst);
+    - Lichtpaars `#F2F0FF` (voor de grote zwevende woorden, zoals "hello" en "services")
+      *Uitzonderingen:*
+    - Lichtgrijs `#F3F6F9` (voor de achtergrond van de projecten)
+    - Grijs `#7A7A7A` (voor de service-tegel tekst);
+
+ */
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    font-size: 55px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    color: #4845E4;
+    padding-bottom: 25px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+/* nav */
+
+
+nav {
+    display:flex;
+    flex-direction:row;
+}
+
+.inner-container2 {
+    flex-basis: 1400px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 15px 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+
+ul {
+    display:flex;
+    flex-direction:row;
+    list-style-type: none;
+}
+
+li { padding:15px;
+     justify-content: flex-end;
+     }
+
+nav ul li a {
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+
+.button {
+    background-color: #ED4385;
+    border: none;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/* HEADER */
+
+.background {
+    background-color: #4845E4;
+}
+
+header div p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.outer-container-1  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+
+.inner-container-1 {
+    flex-basis: 1000px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 10px 20px;
+    display:flex;
+    flex-direction:column;
+}
+
+header p {
+    margin-bottom:20px;
+}
+
+/* main */
+
+.outer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inner-container {
+    flex-basis: 1000px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 100px 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* First section */
+
+.greysection {
+    background-color: #F3F6F9;
+}
+
+.square {
+    width:150px;
+    height:150px;
+}
+
+
+.inner-container3 {
+    flex-basis: 1000px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 15px 20px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content:center;
+}
+
+.outer-container-4  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
