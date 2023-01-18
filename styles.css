@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* CSS - frontend - html - css - concept - opdracht */
 
 * {
@@ -7,10 +10,6 @@
 }
 
 /* Fonts - font-family: 'Merriweather', serif; - font-family: 'Roboto', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* Kleuren
 
@@ -24,6 +23,14 @@
     - Grijs `#7A7A7A` (voor de service-tegel tekst);
 
  */
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    font-size: 55px;
+}
+
+
 
 /* HEADER */
 
@@ -69,4 +76,7 @@ nav {
     margin: 100px 20px;
     display:flex;
     flex-direction:column;
+    align-items:center;
 }
+
+
