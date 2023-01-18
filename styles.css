@@ -148,3 +148,7 @@ header p {
     background-color: #F3F6F9;
 }
 
+.square {
+    width:150px;
+    height:150px;
+}
